@@ -1,5 +1,7 @@
 import 'package:app_020/pages/drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_speed_dial/flutter_speed_dial.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 
 import 'items.dart';
 
@@ -106,14 +108,54 @@ class _Page1State extends State<Page1> {
                           image1: "assets/images/img_4.png",
                           narx1: "102",
                         ),
+                        _items1(
+                          image1: "assets/images/img_4.png",
+                          narx1: "102",
+                        ),
+                        _items1(
+                          image1: "assets/images/img_4.png",
+                          narx1: "102",
+                        ),
+                        _items1(
+                          image1: "assets/images/img_4.png",
+                          narx1: "102",
+                        ),
                       ],
                     ),
                   ),
+                  //nav bar
                 ],
               ),
             ),
           ],
-        )
+        ),
+        bottomNavigationBar: GNav(
+          tabBorderRadius: 20,
+          onTabChange: (int index){
+          },
+          backgroundColor: Colors.white,
+          color: Colors.black54,
+          activeColor: Colors.blue,
+          // tabBackgroundColor: Colors.grey.shade800,
+          gap: 8,
+          tabs: [
+            GButton(
+              icon: Icons.home,
+            ),
+            GButton(
+              icon: Icons.message,
+            ),
+            GButton(
+              icon: Icons.favorite_border,
+            ),
+            GButton(
+              icon: Icons.shopping_bag_outlined,
+            ),
+            GButton(
+              icon: Icons.account_circle_rounded,
+            ),
+          ],
+        ),
       ),
     );
   }

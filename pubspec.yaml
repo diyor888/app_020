@@ -7,7 +7,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_speed_dial: ^5.1.0
+  google_nav_bar: ^5.0.6
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -29,7 +30,7 @@ flutter:
       #       - asset: fonts/Schyler-Italic.ttf
       #         style: italic
       #   - family: Trajan Pro
-      #     fonts:
+    #     fonts:
     #       - asset: fonts/TrajanPro.ttf
     #       - asset: fonts/TrajanPro_Bold.ttf
     #         weight: 700

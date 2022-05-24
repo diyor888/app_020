@@ -1,6 +1,8 @@
 import 'package:app_020/pages/HomePage.dart';
+import 'package:app_020/pages/Page2.dart';
 import 'package:app_020/pages/drawer.dart';
 import 'package:app_020/pages/page1.dart';
+import 'package:app_020/pages/page3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,6 +24,8 @@ class MyApp extends StatelessWidget {
       routes: {
         Page1.id: (context) => Page1(),
         Drawer1.id:(context) => Drawer1(),
+        Page2.id: (context) => Page2(),
+        Page3.id: (context) => Page3(),
       },
     );
   }
