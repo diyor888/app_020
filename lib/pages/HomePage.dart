@@ -49,22 +49,22 @@ class _HomepageState extends State<Homepage> {
           children: [
             _items(
                 image1: "assets/images/img_4.png",
-                image2: "assets/images/img_3.png",
+                image2: "assets/images/img_6.png",
                 narx1: "102",
                 narx2: "105"),
             _items(
                 image1: "assets/images/img_4.png",
-                image2: "assets/images/img_3.png",
+                image2: "assets/images/img_6.png",
                 narx1: "102",
                 narx2: "105"),
             _items(
                 image1: "assets/images/img_4.png",
-                image2: "assets/images/img_3.png",
+                image2: "assets/images/img_6.png",
                 narx1: "102",
                 narx2: "105"),
             _items(
                 image1: "assets/images/img_4.png",
-                image2: "assets/images/img_3.png",
+                image2: "assets/images/img_6.png",
                 narx1: "102",
                 narx2: "105"),
           ],

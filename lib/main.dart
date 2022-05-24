@@ -1,4 +1,6 @@
 import 'package:app_020/pages/HomePage.dart';
+import 'package:app_020/pages/drawer.dart';
+import 'package:app_020/pages/page1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Homepage(),
+      home: Page1(),
+      routes: {
+        Page1.id: (context) => Page1(),
+        Drawer1.id:(context) => Drawer1(),
+      },
     );
   }
 }
